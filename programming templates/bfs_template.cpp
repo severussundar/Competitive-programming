@@ -12,7 +12,7 @@ class graph{
     graph(int k){                                                               //constructor which takes number of nodes as input
     	nodes = k;
         gnodes.resize(k,0);
-        vis.resixe(k);
+        vis.resize(k);
         fill(vis.begin(),vis.end(),false);
         for(int i=0;i<nodes;i++){                                               //fills 'vis' array with n false values and gets input for the key values of all the n nodes
         	cin>>gnodes[i].key;
